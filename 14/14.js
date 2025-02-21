@@ -1,9 +1,9 @@
 //영화진흥위원회
-const mvApi = '26a8c6cea2a943975e05f68fb7394655' ;
+const mvApi = '' ;
 const baseMvUrl = `http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?`;
 
 //TMDB
-const rmdbApi = '623d3819c302bdca0e13c877a0eff364' ;
+const rmdbApi = '' ;
 const baseTMDBUrl = 'https://api.themoviedb.org/3/search/movie?' ;
 
 //영화포스터 저장 배열
