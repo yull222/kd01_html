@@ -1,5 +1,5 @@
 const getFetch = async(dt, ul) => {
-  let apiKey = '26a8c6cea2a943975e05f68fb7394655' ;
+  let apiKey = '' ;
   let baseUrl = 'http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?' ;
   let url = `${baseUrl}key=${apiKey}&targetDt=${dt}` ;
   console.log('getFetch',url);
